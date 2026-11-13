@@ -251,3 +251,18 @@ canvas{position:fixed;inset:0;display:block;}
     }
 }
     
+/* MOBILE FIX V1.2.6 */
+@media (max-width: 768px) {
+    .cake-area {
+        /* Geser kue ke bawah dan kecilkan */
+        transform: translateY(25px) scale(0.4) !important; 
+    }
+    .pet-bg {
+        /* Geser fokus kamera ke atas agar mulut kucing terlihat */
+        object-position: center 15% !important; 
+    }
+    .wish {
+        /* Perkecil font 1 tingkat */
+        font-size: 0.75rem !important; 
+    }
+}
