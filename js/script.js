@@ -9,13 +9,13 @@ const MOBILE = matchMedia('(max-width: 640px)').matches;
 // KONFIGURASI TEKS & GAMBAR
 const greetings = {
   cacan: {
-    img: 'kucing-maria.gif',
+    img: 'assets/kucing-maria.gif',
     alt: 'Cacan',
     w1: 'Meow~ Selamat ulang tahun, Maria! Terima kasih sudah jadi bestie-nya babu aku. Semoga bahagia selalu, jangan lupa makan banyak ya! 🐾',
     w2: 'Meow! Semoga doa dan harapanmu terkabul, Maria! Cacan pamit undur diri dulu. 🐈✨'
   },
   mocca: {
-    img: 'anjing-maria.gif',
+    img: 'assets/anjing-maria.gif',
     alt: 'Mocca',
     w1: 'Woof woof! Happy birthday, Maria! Kamu manusia favoritku. Terima kasih sudah selalu main sama aku ya. Mocca selalu menjagamu! 🐶',
     w2: 'Woof! Horeee! Semoga harimu secerah ekorku yang selalu bergoyang, Maria! 🎉'
