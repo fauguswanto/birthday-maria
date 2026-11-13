@@ -31,3 +31,7 @@ birthday-maria/
     ├── kucing-maria.gif
     ├── anjing-maria.gif
     └── lagu-maria.mp3
+
+## 🎵 Kredit & Atribusi
+- **Lagu**: [Song by @venvn0](https://youtu.be/h9yya-j_kjE?si=d322yfnUeU7n4ZOv&t=601)
+- **Developer**: [fauguswanto](https://github.com/fauguswanto/birthday-maria)
