@@ -347,3 +347,101 @@ canvas{position:fixed;inset:0;display:block;}
         padding-bottom: 20px !important;
     }
 }
+
+/* =========================================
+   NUCLEAR MOBILE OVERRIDE V1.3.0
+   ========================================= */
+@media (max-width: 768px) {
+    .app-container {
+        width: 100vw !important;
+        height: 100dvh !important;
+        padding: 10px !important;
+        border-radius: 0 !important;
+        overflow-y: auto !important;
+        display: flex !important;
+        flex-direction: column !important;
+        background: transparent !important;
+        box-shadow: none !important;
+        backdrop-filter: none !important;
+    }
+
+    .top-bar {
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        gap: 10px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .main-split {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 15px !important;
+        overflow: visible !important;
+    }
+
+    .right-panel {
+        display: contents !important;
+    }
+
+    .title-area {
+        order: 1 !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .left-panel {
+        order: 2 !important;
+        height: 35vh !important;
+        min-height: 220px !important;
+        border-radius: 16px !important;
+        position: relative !important;
+        overflow: hidden !important;
+    }
+
+    .pet-bg {
+        object-position: center 15% !important;
+    }
+
+    .cake-area {
+        transform: scale(0.45) !important;
+        bottom: -5px !important;
+        margin-bottom: 0 !important;
+        position: absolute !important;
+        left: 50% !important;
+        margin-left: -130px !important; /* Setengah dari lebar kue (260/2) */
+    }
+
+    .divider {
+        display: none !important;
+    }
+
+    .wish-area {
+        order: 3 !important;
+        padding: 15px !important;
+        min-height: auto !important;
+    }
+
+    .wish {
+        font-size: 0.75rem !important;
+        line-height: 1.6 !important;
+    }
+
+    .btn-area {
+        order: 4 !important;
+        padding: 10px !important;
+    }
+
+    .footer {
+        order: 5 !important;
+        position: relative !important;
+        bottom: auto !important;
+        left: auto !important;
+        transform: none !important;
+        padding: 20px 10px 40px !important;
+        margin: 0 !important;
+        width: 100% !important;
+        text-align: center !important;
+        pointer-events: auto !important;
+        background: transparent !important;
+    }
+}
