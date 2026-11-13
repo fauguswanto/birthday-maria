@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Selamat Ulang Tahun, Thio Maria! 🎂</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<audio id="bg-music" src="assets/lagu-maria.mp3" loop></audio>
+
+<!-- LANDING PAGE (AMPLOP) -->
+<div id="landing-page" class="landing-screen">
+  <div class="envelope-wrapper">
+    <div class="envelope">
+      <div class="flap"></div>
+      <div class="pocket"></div>
+    </div>
+    <p class="click-hint">Klik Amplop untuk Membuka</p>
+  </div>
+</div>
+
+<canvas id="bg"></canvas>
+<canvas id="fx"></canvas>
+
+<!-- Tambahkan class hidden-app di container asli kamu -->
+<div class="app-container hidden-app" id="main-app">
+  
+  <!-- HEADER -->
+  <header class="top-bar">
+    <div class="top-left">
+      <button class="top-btn active" id="btn-cacan">versi Cacan</button>
+      <button class="top-btn" id="btn-mocca">versi Mocca</button>
+    </div>
+    <div class="top-right">
+      <button class="top-btn music-btn" id="music-btn">Lagu</button>
+    </div>
+  </header>
+
+  <!-- MAIN SPLIT (Kiri Kanan) -->
+  <main class="main-split">
+    
+    <!-- KIRI: Gambar & Kue -->
+    <div class="left-panel">
+      <img id="pet-img" src="assets/kucing-maria.gif" alt="Cacan" class="pet-bg">
+      <div class="cake-area">
+        <div class="cake" id="cake">
+          <div class="glow"></div>
+          <div class="candle c1"><span class="flame"></span></div>
+          <div class="candle c2"><span class="flame"></span></div>
+          <div class="candle c3"><span class="flame"></span></div>
+          <div class="layer l-top"></div>
+          <div class="layer l-mid"></div>
+          <div class="layer l-bot"></div>
+          <div class="plate"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- KANAN: Teks & Tombol -->
+    <div class="right-panel">
+      <div class="title-area">
+        <p class="title">Selamat Ulang Tahun</p>
+        <h1 class="name">Thio Maria</h1>
+      </div>
+      
+      <hr class="divider">
+      
+      <div class="wish-area">
+        <p class="wish" id="wish"></p>
+      </div>
+      
+      <hr class="divider">
+      
+      <div class="btn-area">
+        <button class="btn" id="btn">Tiup Lilinnya 🕯️</button>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>12 November 2026 - Ultah Maria <i>© fauguswanto</i></p>
+  </footer>
+
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
