@@ -490,3 +490,29 @@ canvas{position:fixed;inset:0;display:block;}
     .wish-area { order: 3 !important; padding-top: 20px !important; }
     .btn-area { order: 4 !important; padding-bottom: 20px !important; }
 }
+
+/* MOBILE FIX V1.3.2 - TOMBOL VISIBILITY */
+@media (max-width: 768px) {
+    /* 1. Kurangi tinggi gambar agar tombol naik */
+    .left-panel {
+        height: 32vh !important;
+        min-height: 200px !important;
+    }
+    
+    /* 2. Beri jarak aman di area tombol agar tidak tertutup footer */
+    .btn-area {
+        padding-bottom: 40px !important;
+        margin-bottom: 10px !important;
+    }
+    
+    /* 3. Sedikit kurangi padding pada teks agar lebih hemat ruang */
+    .wish-area {
+        padding-top: 10px !important;
+        padding-bottom: 5px !important;
+    }
+
+    /* 4. Footer dibuat lebih tipis tapi tetap nyaman dibaca */
+    .footer {
+        padding: 10px 10px 15px !important;
+    }
+}
