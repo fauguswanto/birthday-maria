@@ -296,3 +296,17 @@ canvas{position:fixed;inset:0;display:block;}
         font-size: 0.7rem !important;
     }
 }
+
+/* MOBILE FIX V1.2.8 - Kue Turun Total */
+@media (max-width: 768px) {
+    .cake-area {
+        transform: translateY(60px) scale(0.45) !important; 
+        margin-bottom: -60px !important;
+    }
+    .pet-bg {
+        object-position: center 15% !important; 
+    }
+    .wish {
+        font-size: 0.75rem !important; 
+    }
+}
