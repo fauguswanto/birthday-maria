@@ -130,8 +130,8 @@ canvas{position:fixed;inset:0;display:block;}
 
 /* RESPONSIVE (HP) */
 @media (max-width: 768px) {
-  .app-container { width: 95vw; height: 95vh; padding: 15px; }
-  .main-split { flex-direction: column; padding: 0; gap: 15px; }
+  .app-container { width: 95vw; height: 90vh; height: 90dvh; padding: 15px; overflow-y: auto; }
+  .main-split { flex-direction: column; padding: 0; gap: 10px; }
   .left-panel { flex: 1; }
   .right-panel { flex: 1.2; padding: 20px 10px; }
   .cake-area { transform: scale(0.6); margin-bottom: -30px; }
