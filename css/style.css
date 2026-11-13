@@ -266,3 +266,33 @@ canvas{position:fixed;inset:0;display:block;}
         font-size: 0.75rem !important; 
     }
 }
+
+/* FOOTER GLOBAL V1.2.7 */
+.footer {
+    position: fixed !important;
+    bottom: 15px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    width: 100% !important;
+    text-align: center !important;
+    z-index: 10000 !important; /* Agar berada di atas amplop & app-container */
+    pointer-events: none !important; /* Agar klik bisa menembus ke amplop */
+    font-size: 0.75rem !important;
+    color: rgba(255, 255, 255, 0.6) !important;
+    line-height: 1.5 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Hanya link di dalam footer yang bisa diklik */
+.footer a {
+    pointer-events: auto !important;
+}
+
+/* Khusus untuk Mobile, kita beri sedikit jarak dari bawah agar tidak tertabrak menu browser */
+@media (max-width: 768px) {
+    .footer {
+        bottom: 25px !important; 
+        font-size: 0.7rem !important;
+    }
+}
